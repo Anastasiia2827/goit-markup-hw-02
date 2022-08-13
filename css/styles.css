@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 
-.current {
+.current.links {
   color: #2196f3;
 }
 
@@ -176,7 +176,7 @@ body {
 }
 
 .team-text {
-color: var(--title-text-color);  
+  color: var(--title-text-color);
 }
 
 .team-item {
@@ -186,11 +186,11 @@ color: var(--title-text-color);
 /* ========Footer======= */
 
 .footer-logo {
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .footer-logo {
@@ -198,7 +198,7 @@ letter-spacing: 0.03em;
 }
 
 .footer-logo span {
-color:var(--accent-color)
+  color: var(--accent-color);
 }
 
 .footer {
@@ -208,12 +208,22 @@ color:var(--accent-color)
 .footer-link,
 .footer-mail,
 .footer-tel {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71x;
-letter-spacing: 0.03em;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71x;
+  letter-spacing: 0.03em;
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
 }
 
 .footer-link {
@@ -222,5 +232,53 @@ letter-spacing: 0.03em;
 
 .footer-mail,
 .footer-tel {
-  color:var(--footer-contacts-color)
+  color: var(--footer-contacts-color);
+}
+
+/* =======Portfolio===== */
+
+.portfolio-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.portfolio-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* =========Category======= */
+
+.category-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.category-titel {
+ color: var(--primary-text-color); 
+}
+
+.category-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+}
+
+.category-text {
+  color: var(--title-text-color);
+}
+
+.category-item {
+  background-color: #ffffff;
 }

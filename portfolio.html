@@ -18,15 +18,15 @@
     <header class="menu">
       <nav class="menu-nav">
         <a href="./index.html" class="logo link"> <span>Web</span>Studio </a>
-        <ul class="s">
+        <ul class="menu-links list">
           <li>
-            <a href="./index.html" class="links link current">Студія</a>
+            <a href="./index.html" class="links link">Студія</a>
           </li>
           <li>
-            <a href="./portfolio.html" class="links link">Портфоліо</a>
+            <a href="./portfolio.html" class="links link current">Портфоліо</a>
           </li>
           <li class="list">
-            <a href=" #" class="links link">Контакти</a>
+            <a href="#" class="links link">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -45,93 +45,101 @@
     <!--Портфоліо-->
     <main>
       <section>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
-        </ul>
-        <h1>Категорії</h1>
-        <!--зробити заголовок невидимим-->
-        <ul>
+        <ul class="portfolio-buttons list">
+          <li><button type="button" class="portfolio-button">Усі</button></li>
           <li>
-            <a href="">
-              <img src="./images/techno1.jpg" alt="ноутбук" width="370" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
-            </a>
+            <button type="button" class="portfolio-button">Веб-сайти</button>
           </li>
           <li>
-            <a href="">
+            <button type="button" class="portfolio-button">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Маркетинг</button>
+          </li>
+        </ul>
+        <h1 class="category">Категорії</h1>
+        <!--зробити заголовок невидимим-->
+        <ul class="category-list list">
+          <li class="category-item">
+            <a href="#" class="categore-link link">
+              <img src="./images/techno1.jpg" alt="ноутбук" width="370" />
+              <h2 class="category-titel">Технокряк</h2>
+              <p class="category-text">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="category-item">
+            <a href="#" class="categore-link link">
               <img
                 src="./images/poster2.jpg"
                 alt="два чоловіка грають в баскетбол"
                 width="370"
               />
-              <h2>Постер <span lang="en"> New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="category-titel">Постер <span lang="en"> New Orlean vs Golden Star</span></h2>
+              <p class="category-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="category-item">
+            <a href="#"class="categore-link link">
               <img
                 src="./images/restoran3.jpg"
                 alt="напис на фоні вертикальної риби"
                 width="370"
               />
-              <h2>Ресторан <span lang="en">Seafood</span></h2>
-              <p>Додаток</p>
+              <h2 class="category-titel">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="category-text">Додаток</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="category-item">
+            <a href="#"class="categore-link link">
               <img src="./images/projekt4.jpg" alt="навушники" width="370" />
-              <h2>Проєкт<span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="category-titel"> Проєкт <span lang="en">Prime</span></h2>
+              <p class="category-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="category-item">
+            <a href="#"class="categore-link link">
               <img src="./images/projekt5.jpg" alt="дві коробки" width="370" />
-              <h2>Проєкт <span lang="en">Boxes</span></h2>
-              <p>Додаток</p>
+              <h2 class="category-titel">Проєкт <span lang="en">Boxes</span></h2>
+              <p class="category-text">Додаток</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="category-item">
+            <a href="#"class="categore-link link">
               <img
                 src="./images/inspiration6.jpg"
                 alt="екран комп'ютера"
                 width="370"
               />
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="category-titel" lang="en">Inspiration has no Borders</h2>
+              <p class="category-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="category-item">
+            <a href="#"class="categore-link link">
               <img src="./images/magazine7.jpg" alt="журнал" width="370" />
-              <h2>Видання <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="category-titel">Видання <span lang="en">Limited Edition</span></h2>
+              <p class="category-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="category-item">
+            <a href="#"class="categore-link link">
               <img src="./images/lab8.jpg" alt="бірка з написом" width="370" />
-              <h2>Проєкт <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="category-titel">Проєкт <span lang="en">LAB</span></h2>
+              <p class="category-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="category-item">
+            <a href="#"class="categore-link link">
               <img
                 src="./images/business9.jpg"
                 alt="людина працює за ноутбуком"
                 width="370"
               />
-              <h2 lang="en">Growing Business</h2>
-              <p>Додаток</p>
+              <h2 class="category-titel" lang="en">Growing Business</h2>
+              <p class="category-text">Додаток</p>
             </a>
           </li>
         </ul>
@@ -144,15 +152,24 @@
       <address>
         <ul class="footer-list list">
           <li class="footer-item">
-            <a class="footer-link link"
+            <a
+              class="footer-link link"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com" class="footer-mail link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-mail link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="footer-tel link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
